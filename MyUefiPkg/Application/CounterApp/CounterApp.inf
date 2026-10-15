@@ -1,0 +1,19 @@
+
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = CounterApp
+  FILE_GUID                      = 8A43F3B2-6C17-4A2A-9D31-5E6A0B7C1201
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  CounterApp.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  UefiBootServicesTableLib
