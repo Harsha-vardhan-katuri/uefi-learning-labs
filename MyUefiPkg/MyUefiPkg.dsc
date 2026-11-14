@@ -36,3 +36,4 @@
 [Components]
   MyUefiPkg/Application/CounterApp/CounterApp.inf
   MyUefiPkg/Application/KeyboardApp/KeyboardApp.inf
+  MyUefiPkg/Application/MenuApp/MenuApp.inf

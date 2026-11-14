@@ -1,0 +1,18 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = MenuApp
+  FILE_GUID                      = F1587A6C-42D3-4E81-B905-76AC21D3F940
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  MenuApp.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  UefiBootServicesTableLib

@@ -18,3 +18,9 @@ Hands-on UEFI development using EDK II, Embedded C, and QEMU.
 - Read keyboard input using `EFI_INPUT_KEY` and `ReadKeyStroke()`.
 - Handled Enter, Escape, and other keys.
 - See [Day 02 — UEFI Keyboard Input](docs/Day-02-Keyboard-Input.md).
+
+## Day 03 — UEFI Menu
+- Built and tested MenuApp with QEMU and OVMF.
+- Used Up/Down scan codes to move through menu choices.
+- Used Enter to select and Escape to exit.
+- See [Day 03 — UEFI Menu Application](docs/Day-03-MenuApp.md).
