@@ -14,4 +14,7 @@ Hands-on UEFI development using EDK II, Embedded C, and QEMU.
 - Learned about INF files, DSC files, library classes, and Boot Services.
 
 ## Day 02 — Keyboard Input
-- Planned: Read keyboard input using EFI_INPUT_KEY and ReadKeyStroke().
+- Built and tested KeyboardApp with QEMU and OVMF.
+- Read keyboard input using `EFI_INPUT_KEY` and `ReadKeyStroke()`.
+- Handled Enter, Escape, and other keys.
+- See [Day 02 — UEFI Keyboard Input](docs/Day-02-Keyboard-Input.md).

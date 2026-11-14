@@ -1,0 +1,18 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = KeyboardApp
+  FILE_GUID                      = 6E7F8A90-1234-4B56-9ABC-DEF012345678
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  KeyboardApp.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  UefiBootServicesTableLib
